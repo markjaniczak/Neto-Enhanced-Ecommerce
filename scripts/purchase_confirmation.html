@@ -8,7 +8,7 @@ dataLayer.push({
   'Order Total': '[@GRAND_TOTAL@]',               // Grand Total.
   'Order Shipping': '[@shipping_price@]',                  // Shipping.
   'Order Tax': '[@tax_total@]',                    // Tax.
-'Order Coupon': '[@coupon_code@]',
+  'Order Coupon': '[@coupon_code@]',
   'Order Products': [
 
 [%END PARAM%]
@@ -36,6 +36,6 @@ dataLayer.push({
 [%END SHOW_ORDER%]
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG9CQK7"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=[@REFERRAL_KEY1@]"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
