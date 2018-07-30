@@ -1,0 +1,92 @@
+[%IF [@CONFIG:CHECKOUT_COMPLETED@]  eq ''%]
+
+<script>
+window.dataLayer = window.dataLayer || []
+dataLayer.push({
+'event': 'CustomPageView',
+'customPagePath': '[@CONFIG:GA_FUNNEL_VALUE@]',
+'userGroup':'[@USER:GROUP_ID@]'
+});
+</script>
+
+<script>
+$('input').change(function() {
+	dataLayer.push({
+		'Checkout Step': $(this).attr('name'),
+		'event': 'Checkout Step'
+	})
+})
+</script>
+
+[%/IF%]
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG9CQK7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<script>
+$(document).ready(function() {
+  var ecom = {
+      productSetup: function(product) {
+          return {
+              'name': product.name,
+              'id': product.SKU ? product.SKU : product.parent_sku,
+              'category': product.category_fullname ? product.category_fullname : '',
+              'quantity': product.baseqty,
+              'item_price': product.price
+          }
+      },
+      addToCart: function(){
+          var nProduct = $.getLastItemAdded();
+          var product = ecom.productSetup(nProduct);
+          dataLayer.push({
+            'Add Product Name': product.name,
+            'Add Product id': product.id,
+            'Add Product Category': product.category,
+            'Add Product Quantity': product.quantity,
+            'Add Product Unit Price': product.item_price,
+            'event': 'addToCart'
+          });
+      },
+      addMultiToCart: function(){
+          var nProducts = $.getLastItemsAdded();
+          for (var i = 0; i < nProducts.length; i++) {
+              var product = ecom.productSetup(nProducts[i]);
+              dataLayer.push({
+                'Add Product Name': product.name,
+                'Add Product id': product.id,
+                'Add Product Category': product.category,
+                'Add Product Quantity': product.quantity,
+                'Add Product Unit Price': product.item_price,
+                'event': 'addToCart'
+              });
+          }
+      },
+      removeFromCart: function(){
+        var nProduct = $.getLastItemRemoved();
+        var product = ecom.productSetup(nProduct);
+        dataLayer.push({
+          'Remove Product Name': product.name,
+          'Remove Product id': product.id,
+          'Remove Product Category': product.category,
+          'Remove Product Quantity': product.quantity,
+          'Remove Product Unit Price': product.item_price,
+          'event': 'removeFromCart'
+        });
+      },
+      init: function(){
+          nAddItemCallbacks.push(ecom.addToCart);
+          nAddMultiItemsCallbacks.push(ecom.addMultiToCart);
+          nRemoveItemCallbacks.push(ecom.removeFromCart);
+      }
+  }
+
+
+  if (typeof $.getLastItemAdded !== "undefined") {
+      ecom.init();
+  }
+})
+</script>
+
+<span class="ga-pagetype" data-ga-pagetype="[@config:current_page_type@]"></span>
