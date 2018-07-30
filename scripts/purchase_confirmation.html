@@ -1,0 +1,41 @@
+[%SHOW_ORDER id:'[@ORDER_ID@]'%]
+
+[%PARAM *header%]
+<script>
+dataLayer.push({
+  'event': 'Transaction',
+  'Order ID': '[%URL_ENCODE%][@ORDER_ID@][%END URL_ENCODE%]',                     // Transaction ID. Required.
+  'Order Total': '[@GRAND_TOTAL@]',               // Grand Total.
+  'Order Shipping': '[@shipping_price@]',                  // Shipping.
+  'Order Tax': '[@tax_total@]',                    // Tax.
+'Order Coupon': '[@coupon_code@]',
+  'Order Products': [
+
+[%END PARAM%]
+
+[%PARAM *body%]
+
+	{
+       'sku': '[@SKU@]',
+       'name': '[@MODEL@]',
+       'category': '[@CATEGORY_NAME@]',
+       'price': [@PRICE@],
+       'quantity': [@QTY@]
+   }[%if [@counter@] != [@total_items@]%],[%/if%]
+
+
+[%END PARAM%]
+
+[%PARAM *footer%]
+
+]
+});
+</script>
+[%END PARAM%]
+
+[%END SHOW_ORDER%]
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KG9CQK7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
