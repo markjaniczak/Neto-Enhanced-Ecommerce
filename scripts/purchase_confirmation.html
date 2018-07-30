@@ -4,7 +4,7 @@
 <script>
 dataLayer.push({
   'event': 'Transaction',
-  'Order ID': '[%URL_ENCODE%][@ORDER_ID@][%END URL_ENCODE%]',                     // Transaction ID. Required.
+  'Order ID': '[@ORDER_ID@]',                     // Transaction ID. Required.
   'Order Total': '[@GRAND_TOTAL@]',               // Grand Total.
   'Order Shipping': '[@shipping_price@]',                  // Shipping.
   'Order Tax': '[@tax_total@]',                    // Tax.
