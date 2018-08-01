@@ -10,7 +10,7 @@ A Google Tag Manager (GTM) implementation of Google Enhanced Ecommerce (EE) for 
 - Measuring Checkout Steps
 - Measuring Purchases
 
-While this implementation was design for the [Neto Skeletal theme](https://github.com/NetoECommerce/Skeletal) it can be easily configured to work with a number of Neto themes.
+While this implementation was designed for the [Neto Skeletal theme](https://github.com/NetoECommerce/Skeletal) it can be easily configured to work with a number of Neto themes.
 
 ## Before you Start
 Ensure you already have a Google Analytics and Google Tag Manager account before proceeding with this guide.
@@ -31,12 +31,15 @@ _image coming here_
 
 Finally, go to Admin > Tracking Info > Tracking Code and find your analytics tracking code. It should look something like _UA-122xxxxxx-1_
 
+### Preparing Google Tag Manager
+Go to Admin > Import Container. Select container.json, choose to import it into a new or your existing workspace and choose the merge option.
+
+This will configure everything you need in terms of tracking info.
+
 ### Preparing Neto
 In the Neto control panel, go to Settings and Tools > All Settings and Tools > Custom Scripts > Add New. Name the script something relevant such as Google Tag Manager - Enhanced Ecommerce.
 
 Copy each of the scripts from the scripts folder into the relevant tabs.
-
-### Preparing Google Tag Manager
 
 
 ## License
