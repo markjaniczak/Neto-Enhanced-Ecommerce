@@ -1,13 +1,13 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2018-07-30 13:00:40",
+    "exportTime": "2018-08-03 06:54:10",
     "containerVersion": {
-        "path": "accounts/3303709682/containers/9189019/versions/2",
+        "path": "accounts/3303709682/containers/9189019/versions/3",
         "accountId": "3303709682",
         "containerId": "9189019",
-        "containerVersionId": "2",
-        "name": "Enhanced Analytics Implementation",
-        "description": "Added enhanced analytics tracking. Added a few configurable options that vary between Neto stores such as the carousel plugin and the banner file path.",
+        "containerVersionId": "3",
+        "name": "Google Enhanced Analytics",
+        "description": "Updated checkout steps. Updated pagespeed settings so it's only triggered on the first pageview.",
         "container": {
             "path": "accounts/3303709682/containers/9189019",
             "accountId": "3303709682",
@@ -17,7 +17,7 @@
             "usageContext": [
                 "WEB"
             ],
-            "fingerprint": "1532954713448",
+            "fingerprint": "1533273764532",
             "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/3303709682/containers/9189019/workspaces?apiLink=container"
         },
         "tag": [
@@ -141,6 +141,27 @@
                         "value": "{{GA - EE - Add to Cart Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -156,7 +177,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948012854",
+                "fingerprint": "1533274959982",
                 "firingTriggerId": [
                     "22"
                 ],
@@ -186,6 +207,27 @@
                         "value": "{{GA - EE - Checkout Step Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -201,7 +243,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532954736712",
+                "fingerprint": "1533274971246",
                 "firingTriggerId": [
                     "24",
                     "29",
@@ -234,6 +276,27 @@
                         "value": "{{GA - EE - Product Detail View Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -249,7 +312,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948072407",
+                "fingerprint": "1533274983400",
                 "firingTriggerId": [
                     "17"
                 ],
@@ -279,6 +342,27 @@
                         "value": "{{GA - EE - Product Impression Click Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -294,7 +378,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948064237",
+                "fingerprint": "1533274995359",
                 "firingTriggerId": [
                     "15"
                 ],
@@ -324,6 +408,27 @@
                         "value": "{{GA - EE - Product Impression View Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -339,7 +444,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948087258",
+                "fingerprint": "1533275007015",
                 "firingTriggerId": [
                     "13"
                 ],
@@ -369,6 +474,27 @@
                         "value": "{{GA - EE - Promotion Click Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -384,7 +510,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948150902",
+                "fingerprint": "1533275019630",
                 "firingTriggerId": [
                     "18"
                 ],
@@ -414,6 +540,27 @@
                         "value": "{{GA - EE - Promotion View Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -429,7 +576,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948141986",
+                "fingerprint": "1533275031398",
                 "firingTriggerId": [
                     "20"
                 ],
@@ -459,6 +606,27 @@
                         "value": "{{GA - EE - Remove from Cart Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -474,7 +642,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948166596",
+                "fingerprint": "1533275045543",
                 "firingTriggerId": [
                     "23"
                 ],
@@ -504,6 +672,27 @@
                         "value": "{{GA - EE - Transaction Data}}"
                     },
                     {
+                        "type": "LIST",
+                        "key": "fieldsToSet",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "fieldName",
+                                        "value": "siteSpeedSampleRate"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "0"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         "type": "TEMPLATE",
                         "key": "trackType",
                         "value": "TRACK_PAGEVIEW"
@@ -519,7 +708,7 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1532948196509",
+                "fingerprint": "1533275056909",
                 "firingTriggerId": [
                     "6"
                 ],
@@ -1715,10 +1904,10 @@
                     {
                         "type": "TEMPLATE",
                         "key": "javascript",
-                        "value": "function () {\n  var actionField = {};\n  if ({{Click ID}}.includes(\"form_submit\")) {\n    var step = \"4\";\n    var option = document.querySelector(\"._cpy_payicon:not(.collapsed)\").getAttribute(\"ref2\");\n    actionField.step = step;\n    actionField.option = option;\n  } else {\n    step = {{Lookup Table - Checkout Steps}};\n  \tactionField.step = step;\n  }\n  return {\n    'ecommerce': {\n      'checkout_option': {\n        'actionField': actionField\n      }\n    }\n  }\n}\n                    "
+                        "value": "function () {\n  var actionField = {};\n  if ({{Click ID}}.includes(\"form_submit\")) {\n    var step = \"Payment\";\n    var option = document.querySelector(\"._cpy_payicon:not(.collapsed)\").getAttribute(\"ref2\");\n    actionField.step = step;\n    actionField.option = option;\n  } else {\n    step = {{Lookup Table - Checkout Steps}};\n  \tactionField.step = step;\n  }\n  return {\n    'ecommerce': {\n      'checkout_option': {\n        'actionField': actionField\n      }\n    }\n  }\n}\n                    "
                     }
                 ],
-                "fingerprint": "1532954555097",
+                "fingerprint": "1533274004672",
                 "parentFolderId": "26"
             },
             {
@@ -2050,7 +2239,7 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "1"
+                                        "value": "Email"
                                     }
                                 ]
                             },
@@ -2065,7 +2254,7 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "2"
+                                        "value": "Billing"
                                     }
                                 ]
                             },
@@ -2080,14 +2269,14 @@
                                     {
                                         "type": "TEMPLATE",
                                         "key": "value",
-                                        "value": "3"
+                                        "value": "Terms"
                                     }
                                 ]
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1532954256775",
+                "fingerprint": "1533274042819",
                 "parentFolderId": "28"
             },
             {
@@ -2528,7 +2717,7 @@
                 "name": "Click URL"
             }
         ],
-        "fingerprint": "1532955367506",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3303709682/containers/9189019/versions/2?apiLink=version"
+        "fingerprint": "1533279196707",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3303709682/containers/9189019/versions/3?apiLink=version"
     }
 }
