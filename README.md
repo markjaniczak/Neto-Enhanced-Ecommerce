@@ -61,7 +61,7 @@ In the Neto control panel, go to Settings and Tools > All Settings and Tools > C
 - product_page.html > Product Page (under description)
 - product_thumbnails.html > Product Thumbnails
 
-### Finished
+## Finished
 
 That's all that's required to get Google's Enhanced Ecommerce running with a Neto store. While EE can track more than what's in this implementation such as:
 
@@ -73,7 +73,7 @@ That's all that's required to get Google's Enhanced Ecommerce running with a Net
 
 The above would generally require bespoke customisation.
 
-### Advanced Configuration
+## Advanced Configuration
 Unfortunately, list names of where a product or banner appear cannot be easily obtained without further customisation to your theme. By default this implementation will list the location of a product view or banner view as the page type. i.e. the list for a product view on a category page will appear as `category`.
 
 To be able to specify the list for product views you will need to do two things:
