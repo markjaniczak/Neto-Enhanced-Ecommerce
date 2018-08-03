@@ -27,7 +27,7 @@ Google Analytics must first be configured to accept enhanced ecommerce data. Go 
 
 Once complete it should look something like the following:
 
-![Google Analytics step setup](https://imgur.com/2b8b287a-4004-4fb6-bd3a-974a6910a538)
+![Imgur](https://i.imgur.com/P3yfS7A.png)
 
 Finally, go to Admin > Tracking Info > Tracking Code and find your analytics tracking code. It should look something like `UA-xxxxxxxxx-1`.
 
