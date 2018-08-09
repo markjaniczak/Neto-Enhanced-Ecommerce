@@ -40,7 +40,8 @@ Depending on your theme you may need to tweak a few settings once you've importe
 Banner clicks are tracked based on the class name of the banners. Most Neto themes will use the Bootstrap carousel so you won't need to change anything here but if you're using a different carousel plugin you will need to specify which one. If you're unsure, check with [Neto support](https://www.netohq.com.au).
 
 The following carousel plugins have been preconfigured in this container:
-- Bootstrap
+- Bootstrap 4
+- Bootstrap 3
 - Owl Carousel 2
 - Slick
 
@@ -50,6 +51,10 @@ If you're using one of the above, just change the `Carousel Plugin` variable to 
 Banner views are tracked based off part of the banner image URL. Almost all Neto sites will use a URL like `/assets/marketing/banner.jpg` but this can vary as it's an editable option. If you open one of the banner images on your site and you see it's located elsewhere you will need to update the `Promotion URL` variable.
 
 #### Thumbnails
+You will need to add the following on your product thumbnail template on the element which has the `thumbnail` class:
+```
+id="product[@inventory_id@][@rndm@]"
+```
 Product thumbnail clicks and views are tracked using the class of the thumbnail container. In most Neto themes this will be `thumbnail` but this can vary too. If your theme uses a different class for thumbnail containers you will need to update the `Thumbnail Container Class` variable.
 
 ### Preparing Neto
