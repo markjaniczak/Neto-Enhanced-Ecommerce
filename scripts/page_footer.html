@@ -1,11 +1,29 @@
 [%IF [@CONFIG:CHECKOUT_COMPLETED@]  eq ''%]
 
 <script>
-window.dataLayer = window.dataLayer || []
-dataLayer.push({
-'event': 'CustomPageView',
-'customPagePath': '[@CONFIG:GA_FUNNEL_VALUE@]',
-'userGroup':'[@USER:GROUP_ID@]'
+[%cart_items%]
+    [%param *header%]
+    var cartItems = [
+    [%/param%]
+    [%param *body%]
+    [%if [@count@] ne 0%],[%/if%]{
+            'id': '[@sku@]',
+            'name': '[@model@]',
+            'price': '[@price@]',
+            'brand': '[@brand@]',
+            'quantity': [@qty@]
+        }
+    [%/param%]
+    [%param *footer%]
+    ];
+    [%/param%]
+[%/cart_items%]
+    window.dataLayer = window.dataLayer || []
+    dataLayer.push({
+    'event': 'CustomPageView',
+    'cartItems': cartItems,
+    'customPagePath': '[@CONFIG:GA_FUNNEL_VALUE@]',
+    'userGroup':'[@USER:GROUP_ID@]'
 });
 </script>
 
@@ -81,8 +99,6 @@ $(document).ready(function() {
           nRemoveItemCallbacks.push(ecom.removeFromCart);
       }
   }
-
-
   if (typeof $.getLastItemAdded !== "undefined") {
       ecom.init();
   }
