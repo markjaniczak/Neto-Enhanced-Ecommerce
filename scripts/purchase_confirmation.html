@@ -10,24 +10,17 @@ dataLayer.push({
   'Order Tax': '[@tax_total@]',                    // Tax.
   'Order Coupon': '[@coupon_code@]',
   'Order Products': [
-
 [%END PARAM%]
-
 [%PARAM *body%]
-
 	{
-       'sku': '[@SKU@]',
+       'id': '[@SKU@]',
        'name': '[@MODEL@]',
        'category': '[@CATEGORY_NAME@]',
        'price': [@PRICE@],
        'quantity': [@QTY@]
    }[%if [@counter@] != [@total_items@]%],[%/if%]
-
-
 [%END PARAM%]
-
 [%PARAM *footer%]
-
 ]
 });
 </script>
