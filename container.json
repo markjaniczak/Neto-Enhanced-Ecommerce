@@ -1,28 +1,27 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2018-08-14 00:44:22",
+    "exportTime": "2018-08-21 04:58:47",
     "containerVersion": {
-        "path": "accounts/3811793778/containers/9636875/versions/9",
-        "accountId": "3811793778",
-        "containerId": "9636875",
-        "containerVersionId": "9",
-        "name": "Updated checkout step 4 trigger",
+        "path": "accounts/3303709682/containers/9189019/versions/0",
+        "accountId": "3303709682",
+        "containerId": "9189019",
+        "containerVersionId": "0",
         "container": {
-            "path": "accounts/3811793778/containers/9636875",
-            "accountId": "3811793778",
-            "containerId": "9636875",
-            "name": "www.artshedonline.com.au",
-            "publicId": "GTM-TG3X285",
+            "path": "accounts/3303709682/containers/9189019",
+            "accountId": "3303709682",
+            "containerId": "9189019",
+            "name": "keylime.neto.com.au",
+            "publicId": "GTM-KG9CQK7",
             "usageContext": [
                 "WEB"
             ],
-            "fingerprint": "1534139486057",
-            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/3811793778/containers/9636875/workspaces?apiLink=container"
+            "fingerprint": "1534827514208",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/3303709682/containers/9189019/workspaces?apiLink=container"
         },
         "tag": [
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "tagId": "1",
                 "name": "GA Pageview",
                 "type": "ua",
@@ -110,17 +109,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1533789889540",
+                "fingerprint": "1532948034637",
                 "firingTriggerId": [
-                    "16"
+                    "5"
                 ],
-                "parentFolderId": "5",
+                "parentFolderId": "27",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "2",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "8",
                 "name": "GA Pageview - EE - Add to Cart",
                 "type": "ua",
                 "parameter": [
@@ -181,17 +180,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1534057651119",
+                "fingerprint": "1534827161621",
                 "firingTriggerId": [
-                    "10"
+                    "22"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "3",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "10",
                 "name": "GA Pageview - EE - Checkout Step",
                 "type": "ua",
                 "parameter": [
@@ -247,20 +246,20 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1533789889542",
+                "fingerprint": "1533274971246",
                 "firingTriggerId": [
-                    "12",
-                    "13",
-                    "15",
-                    "14"
+                    "24",
+                    "29",
+                    "30",
+                    "31"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "4",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "5",
                 "name": "GA Pageview - EE - Product Detail View",
                 "type": "ua",
                 "parameter": [
@@ -316,17 +315,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1533789889543",
+                "fingerprint": "1533274983400",
                 "firingTriggerId": [
                     "17"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "5",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "4",
                 "name": "GA Pageview - EE - Product Impression Click",
                 "type": "ua",
                 "parameter": [
@@ -387,17 +386,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1534057637449",
+                "fingerprint": "1534827161624",
                 "firingTriggerId": [
-                    "18"
+                    "15"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "6",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "3",
                 "name": "GA Pageview - EE - Product Impression View",
                 "type": "ua",
                 "parameter": [
@@ -458,17 +457,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1534057622427",
+                "fingerprint": "1534827161625",
                 "firingTriggerId": [
-                    "19"
+                    "13"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "7",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "6",
                 "name": "GA Pageview - EE - Promotion Click",
                 "type": "ua",
                 "parameter": [
@@ -524,17 +523,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1533789889547",
+                "fingerprint": "1533275019630",
                 "firingTriggerId": [
-                    "20"
+                    "18"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "8",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "7",
                 "name": "GA Pageview - EE - Promotion View",
                 "type": "ua",
                 "parameter": [
@@ -590,16 +589,16 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1533789889548",
+                "fingerprint": "1533275031398",
                 "firingTriggerId": [
-                    "21"
+                    "20"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "tagId": "9",
                 "name": "GA Pageview - EE - Remove from Cart",
                 "type": "ua",
@@ -661,17 +660,17 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1534057666604",
+                "fingerprint": "1534827161628",
                 "firingTriggerId": [
-                    "22"
+                    "23"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "tagId": "10",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "tagId": "2",
                 "name": "GA Pageview - EE - Transactions",
                 "type": "ua",
                 "parameter": [
@@ -727,19 +726,19 @@
                         "value": "true"
                     }
                 ],
-                "fingerprint": "1533789889551",
+                "fingerprint": "1533275056909",
                 "firingTriggerId": [
-                    "23"
+                    "6"
                 ],
-                "parentFolderId": "6",
+                "parentFolderId": "26",
                 "tagFiringOption": "ONCE_PER_EVENT"
             }
         ],
         "trigger": [
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "10",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "22",
                 "name": "Add to Cart",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -759,13 +758,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889481",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161568",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "11",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "25",
                 "name": "Checkout Payment Step",
                 "type": "CLICK",
                 "filter": [
@@ -785,12 +784,12 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889481"
+                "fingerprint": "1534827161569"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "12",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "24",
                 "name": "Checkout Step 1 - Email Address",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -827,13 +826,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889482",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161570",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "13",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "29",
                 "name": "Checkout Step 2 - Billing",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -870,13 +869,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889483",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161570",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "14",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "31",
                 "name": "Checkout Step 3 - Terms",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -913,13 +912,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1534139350011",
-                "parentFolderId": "8"
+                "fingerprint": "1534827296882",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "15",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "30",
                 "name": "Checkout Step 4 - Payment Method",
                 "type": "CLICK",
                 "filter": [
@@ -934,18 +933,18 @@
                             {
                                 "type": "TEMPLATE",
                                 "key": "arg1",
-                                "value": "other_submit"
+                                "value": "submit"
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1534205852137",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161571",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "16",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "5",
                 "name": "Custom Page View",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -982,12 +981,12 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889484",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161572",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "triggerId": "17",
                 "name": "Product Detail View",
                 "type": "PAGEVIEW",
@@ -1008,13 +1007,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889485",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161573",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "18",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "15",
                 "name": "Product Thumbnail Click",
                 "type": "CLICK",
                 "filter": [
@@ -1049,17 +1048,17 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889488",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161576",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "19",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "13",
                 "name": "Product Thumbnail Visible",
                 "type": "ELEMENT_VISIBILITY",
-                "fingerprint": "1533789889488",
-                "parentFolderId": "8",
+                "fingerprint": "1532474947073",
+                "parentFolderId": "14",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -1099,9 +1098,9 @@
                 ]
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "20",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "18",
                 "name": "Promotion Clicks",
                 "type": "CLICK",
                 "filter": [
@@ -1121,13 +1120,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889490",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161578",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "21",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "20",
                 "name": "Promotion Impressions",
                 "type": "ELEMENT_VISIBILITY",
                 "filter": [
@@ -1147,8 +1146,8 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889491",
-                "parentFolderId": "8",
+                "fingerprint": "1534827161579",
+                "parentFolderId": "14",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -1188,9 +1187,9 @@
                 ]
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "22",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "23",
                 "name": "Remove from Cart",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -1210,13 +1209,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889491",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161580",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "triggerId": "23",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "triggerId": "6",
                 "name": "Transaction",
                 "type": "CUSTOM_EVENT",
                 "customEventFilter": [
@@ -1253,15 +1252,15 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889492",
-                "parentFolderId": "8"
+                "fingerprint": "1534827161580",
+                "parentFolderId": "14"
             }
         ],
         "variable": [
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "6",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "31",
                 "name": "Add to Cart Product Category",
                 "type": "v",
                 "parameter": [
@@ -1281,13 +1280,13 @@
                         "value": "Add Product Category"
                     }
                 ],
-                "fingerprint": "1533789889493",
-                "parentFolderId": "8"
+                "fingerprint": "1532610135900",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "7",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "28",
                 "name": "Add to Cart Product ID",
                 "type": "v",
                 "parameter": [
@@ -1307,13 +1306,13 @@
                         "value": "Add Product id"
                     }
                 ],
-                "fingerprint": "1533789889494",
-                "parentFolderId": "8"
+                "fingerprint": "1532610130021",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "8",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "27",
                 "name": "Add to Cart Product Name",
                 "type": "v",
                 "parameter": [
@@ -1333,13 +1332,13 @@
                         "value": "Add Product Name"
                     }
                 ],
-                "fingerprint": "1533789889494",
-                "parentFolderId": "8"
+                "fingerprint": "1532610032481",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "9",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "30",
                 "name": "Add to Cart Product Quantity",
                 "type": "v",
                 "parameter": [
@@ -1359,13 +1358,13 @@
                         "value": "Add Product Quantity"
                     }
                 ],
-                "fingerprint": "1533789889495",
-                "parentFolderId": "8"
+                "fingerprint": "1532610098557",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "10",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "29",
                 "name": "Add to Cart Product Unit Price",
                 "type": "v",
                 "parameter": [
@@ -1385,13 +1384,13 @@
                         "value": "Add Product Unit Price"
                     }
                 ],
-                "fingerprint": "1533789889496",
-                "parentFolderId": "8"
+                "fingerprint": "1532610123866",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "11",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "1",
                 "name": "Analytics Tracking ID",
                 "type": "gas",
                 "parameter": [
@@ -1438,16 +1437,16 @@
                     {
                         "type": "TEMPLATE",
                         "key": "trackingId",
-                        "value": ""
+                        "value": "UA-122959419-1"
                     }
                 ],
-                "fingerprint": "1533792533352",
-                "parentFolderId": "5"
+                "fingerprint": "1532948718672",
+                "parentFolderId": "27"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "12",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "49",
                 "name": "Carousel Plugin",
                 "type": "c",
                 "parameter": [
@@ -1457,13 +1456,13 @@
                         "value": "Bootstrap 3"
                     }
                 ],
-                "fingerprint": "1533789889498",
-                "parentFolderId": "7"
+                "fingerprint": "1533787772018",
+                "parentFolderId": "28"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "54",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "55",
                 "name": "Cart Items",
                 "type": "v",
                 "parameter": [
@@ -1483,12 +1482,37 @@
                         "value": "cartItems"
                     }
                 ],
-                "fingerprint": "1534123740154"
+                "fingerprint": "1534827161589"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "1",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "56",
+                "name": "Checkout Option",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "Checkout Option"
+                    }
+                ],
+                "fingerprint": "1534827161589"
+            },
+            {
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "39",
                 "name": "Checkout Step",
                 "type": "v",
                 "parameter": [
@@ -1508,12 +1532,12 @@
                         "value": "Checkout Step"
                     }
                 ],
-                "fingerprint": "1533789889482"
+                "fingerprint": "1532676400470"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "13",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "20",
                 "name": "Click Alt",
                 "type": "jsm",
                 "parameter": [
@@ -1523,13 +1547,13 @@
                         "value": "function () {\n  return {{Click Element}}.alt\n}"
                     }
                 ],
-                "fingerprint": "1533789889498",
-                "parentFolderId": "9"
+                "fingerprint": "1532587453958",
+                "parentFolderId": "16"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "4",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "13",
                 "name": "Click Parent Thumbnail Class",
                 "type": "jsm",
                 "parameter": [
@@ -1539,13 +1563,13 @@
                         "value": "function() {\n  //IE 9+ Support\n  if (!Element.prototype.matches)\n    Element.prototype.matches = Element.prototype.msMatchesSelector || \n                                Element.prototype.webkitMatchesSelector;\n\n  if (!Element.prototype.closest)\n    Element.prototype.closest = function(s) {\n        var el = this;\n        if (!document.documentElement.contains(el)) return null;\n        do {\n            if (el.matches(s)) return el;\n            el = el.parentElement || el.parentNode;\n        } while (el !== null && el.nodeType === 1); \n        return null;\n    };\n  //Return nearest thumbnail classes\n  return {{Click Element}}.closest(\".{{Thumbnail Container Class}}\").className;\n}"
                     }
                 ],
-                "fingerprint": "1533789889487",
-                "parentFolderId": "8"
+                "fingerprint": "1532949506472",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "14",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "12",
                 "name": "Click Parent Thumbnail ID",
                 "type": "jsm",
                 "parameter": [
@@ -1555,13 +1579,13 @@
                         "value": "function() {\n  //IE 9+ Support\n  if (!Element.prototype.matches)\n    Element.prototype.matches = Element.prototype.msMatchesSelector || \n                                Element.prototype.webkitMatchesSelector;\n\n  if (!Element.prototype.closest)\n    Element.prototype.closest = function(s) {\n        var el = this;\n        if (!document.documentElement.contains(el)) return null;\n        do {\n            if (el.matches(s)) return el;\n            el = el.parentElement || el.parentNode;\n        } while (el !== null && el.nodeType === 1); \n        return null;\n    };\n  //Return nearest thumbnail ID\n  return {{Click Element}}.closest(\".{{Thumbnail Container Class}}\").id;\n}"
                     }
                 ],
-                "fingerprint": "1533789889499",
-                "parentFolderId": "8"
+                "fingerprint": "1532949498334",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "15",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "9",
                 "name": "Click Product Brand",
                 "type": "d",
                 "parameter": [
@@ -1581,13 +1605,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889500",
-                "parentFolderId": "8"
+                "fingerprint": "1532585392058",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "16",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "7",
                 "name": "Click Product ID",
                 "type": "d",
                 "parameter": [
@@ -1607,13 +1631,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889501",
-                "parentFolderId": "8"
+                "fingerprint": "1532585399337",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "17",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "10",
                 "name": "Click Product List",
                 "type": "d",
                 "parameter": [
@@ -1633,13 +1657,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889502",
-                "parentFolderId": "8"
+                "fingerprint": "1532604926617",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "18",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "6",
                 "name": "Click Product Name",
                 "type": "d",
                 "parameter": [
@@ -1659,13 +1683,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889503",
-                "parentFolderId": "8"
+                "fingerprint": "1532585413840",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "19",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "11",
                 "name": "Click Product Position",
                 "type": "d",
                 "parameter": [
@@ -1685,13 +1709,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889504",
-                "parentFolderId": "8"
+                "fingerprint": "1532585420353",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "20",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "8",
                 "name": "Click Product Price",
                 "type": "d",
                 "parameter": [
@@ -1711,13 +1735,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889505",
-                "parentFolderId": "8"
+                "fingerprint": "1532585426884",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "22",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "21",
                 "name": "Click Promotion ID",
                 "type": "jsm",
                 "parameter": [
@@ -1727,13 +1751,13 @@
                         "value": "function () {\n  return {{Click Source}}.replace(/.*\\/{{Promotion URL}}\\//,\"\").replace(/\\..*/,\"\")\n}"
                     }
                 ],
-                "fingerprint": "1533789889507",
-                "parentFolderId": "8"
+                "fingerprint": "1532951277846",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "25",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "52",
                 "name": "Click Promotion Position",
                 "type": "jsm",
                 "parameter": [
@@ -1743,12 +1767,12 @@
                         "value": "function() {\n  //IE 9+ Support\n  if (!Element.prototype.matches)\n    Element.prototype.matches = Element.prototype.msMatchesSelector || \n                                Element.prototype.webkitMatchesSelector;\n\n  if (!Element.prototype.closest)\n    Element.prototype.closest = function(s) {\n        var el = this;\n        if (!document.documentElement.contains(el)) return null;\n        do {\n            if (el.matches(s)) return el;\n            el = el.parentElement || el.parentNode;\n        } while (el !== null && el.nodeType === 1); \n        return null;\n    };\n  \t//Return nearest carousel container\n  \tvar carouselContainer = {{Click Element}}.closest(\".{{Lookup Table - Carousel Container Class}}\");\n\t//Return nearest carousel slide\n\tvar carouselSlide = {{Click Element}}.closest(\".{{Lookup Table - Carousel Slide Class}}\");\n\t\n\tvar nodes = Array.prototype.slice.call(carouselContainer.children)\n    return nodes.indexOf(carouselSlide);\n}"
                     }
                 ],
-                "fingerprint": "1533789889511"
+                "fingerprint": "1532950870604"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "5",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "19",
                 "name": "Click Source",
                 "type": "jsm",
                 "parameter": [
@@ -1758,13 +1782,13 @@
                         "value": "function () {\n  return {{Click Element}}.src\n}"
                     }
                 ],
-                "fingerprint": "1533789889489",
-                "parentFolderId": "9"
+                "fingerprint": "1532587459043",
+                "parentFolderId": "16"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "2",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "14",
                 "name": "Current Page Type",
                 "type": "d",
                 "parameter": [
@@ -1784,13 +1808,13 @@
                         "value": "CSS"
                     }
                 ],
-                "fingerprint": "1533789889485",
-                "parentFolderId": "9"
+                "fingerprint": "1532762311714",
+                "parentFolderId": "16"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "26",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "2",
                 "name": "Custom Page Path",
                 "type": "v",
                 "parameter": [
@@ -1815,13 +1839,13 @@
                         "value": "customPagePath"
                     }
                 ],
-                "fingerprint": "1533789889512",
-                "parentFolderId": "9"
+                "fingerprint": "1532948709031",
+                "parentFolderId": "16"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "27",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "18",
                 "name": "Detail Product Brand",
                 "type": "d",
                 "parameter": [
@@ -1841,13 +1865,13 @@
                         "value": "ID"
                     }
                 ],
-                "fingerprint": "1533789889512",
-                "parentFolderId": "8"
+                "fingerprint": "1532586043996",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "28",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "16",
                 "name": "Detail Product ID",
                 "type": "d",
                 "parameter": [
@@ -1867,13 +1891,13 @@
                         "value": "ID"
                     }
                 ],
-                "fingerprint": "1533789889513",
-                "parentFolderId": "8"
+                "fingerprint": "1532586038141",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "29",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "15",
                 "name": "Detail Product Name",
                 "type": "d",
                 "parameter": [
@@ -1893,13 +1917,13 @@
                         "value": "ID"
                     }
                 ],
-                "fingerprint": "1533789889514",
-                "parentFolderId": "8"
+                "fingerprint": "1532585956331",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "30",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "17",
                 "name": "Detail Product Price",
                 "type": "d",
                 "parameter": [
@@ -1919,13 +1943,13 @@
                         "value": "ID"
                     }
                 ],
-                "fingerprint": "1533789889515",
-                "parentFolderId": "8"
+                "fingerprint": "1532586050680",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "31",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "37",
                 "name": "GA - EE - Add to Cart Data",
                 "type": "jsm",
                 "parameter": [
@@ -1935,29 +1959,29 @@
                         "value": "function() {\n  \tvar list = '';\n\tif ({{Click Parent Thumbnail ID}} == null && {{Current Page Type}} == 'product') {\n\t\tlist = \"Product page\";\n\t} else {\n      \tlist = {{Click Product List}};\n    }\nreturn {\n  'ecommerce': {\n  \t'add': {\n      'actionField' : { 'list': list},\n      'products': [{\n        'name': {{Add to Cart Product Name}},\n        'id': {{Add to Cart Product ID}},\n        'price': {{Add to Cart Product Unit Price}},\n        'quantity': {{Add to Cart Product Quantity}}\n\t\t}]\n\t}\n}\n}\n}"
                     }
                 ],
-                "fingerprint": "1534138214588",
-                "parentFolderId": "6"
+                "fingerprint": "1534827161602",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "33",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "54",
                 "name": "GA - EE - Checkout Step Data",
                 "type": "jsm",
                 "parameter": [
                     {
                         "type": "TEMPLATE",
                         "key": "javascript",
-                        "value": "function () {\n  var actionField = {};\n  if ({{Click ID}}.includes(\"form_submit\")) {\n    var step = 4;\n    var option = document.querySelector(\"._cpy_payicon:not(.collapsed)\").getAttribute(\"ref2\");\n    actionField.step = step;\n    actionField.option = option;\n  } else {\n    actionField.step = parseInt({{Lookup Table - Checkout Steps}});\n  }\n  return {\n    'ecommerce': {\n      'checkout': {\n        'actionField': actionField,\n        'products': {{Cart Items}}\n      }\n    }\n  }\n}\n                    "
+                        "value": "function () {\n  var actionField = {};\n  if ({{Click ID}}.includes(\"submit\")) {\n    var step = 4;\n    var option = document.querySelector(\"._cpy_payicon:not(.collapsed)\").getAttribute(\"ref2\");\n    actionField.step = step;\n    actionField.option = option;\n  } else {\n    actionField.step = parseInt({{Lookup Table - Checkout Steps}});\n  }\n  return {\n    'ecommerce': {\n      'checkout': {\n        'actionField': actionField,\n        'products': {{Cart Items}}\n      }\n    }\n  }\n}\n                    "
                     }
                 ],
-                "fingerprint": "1534124232201",
-                "parentFolderId": "6"
+                "fingerprint": "1534827161606",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "34",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "24",
                 "name": "GA - EE - Product Detail View Data",
                 "type": "jsm",
                 "parameter": [
@@ -1967,13 +1991,13 @@
                         "value": "function () {\n\treturn {\n\t\t'ecommerce': {\n    \t\t'detail': { \n      \t\t'products': [{\n       \t\t\t'name': '{{Detail Product Name}}',\n       \t\t\t'id': '{{Detail Product ID}}',\n       \t\t\t'price': '{{Detail Product Price}}',\n       \t\t\t'brand': '{{Detail Product Brand}}'\n     \t\t\t}]\n    \t\t}\n   \t\t}\n\t}\n}"
                     }
                 ],
-                "fingerprint": "1533789889520",
-                "parentFolderId": "6"
+                "fingerprint": "1533787808596",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "35",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "23",
                 "name": "GA - EE - Product Impression Click Data",
                 "type": "jsm",
                 "parameter": [
@@ -1983,13 +2007,13 @@
                         "value": "function() {\nreturn {\n\t'ecommerce': {\n      'click': {\n      \t'actionField': {'list': '{{Click Product List}}'},\n    \t'products': [\n     \t\t\t{\n       \t\t'name': '{{Click Product Name}}',\n       \t\t'id': '{{Click Product ID}}',\n       \t\t'price': '{{Click Product Price}}',\n       \t\t'brand': '{{Click Product Brand}}',\n       \t\t'position': '{{Click Product Position}}'\n     \t\t\t}]\n   \t\t\t}\n\t\t}\n\t}\n}"
                     }
                 ],
-                "fingerprint": "1533789889521",
-                "parentFolderId": "6"
+                "fingerprint": "1532948415451",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "36",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "22",
                 "name": "GA - EE - Product Impression View Data",
                 "type": "jsm",
                 "parameter": [
@@ -1999,13 +2023,13 @@
                         "value": "function() {\n  return {\n\t'ecommerce': {\n    'impressions': [\n     {\n       'name': '{{Click Product Name}}',\n       'id': '{{Click Product ID}}',\n       'price': '{{Click Product Price}}',\n       'brand': '{{Click Product Brand}}',\n       'list': '{{Click Product List}}',\n       'position': '{{Click Product Position}}'\n     }]\n   }\n}\n}"
                     }
                 ],
-                "fingerprint": "1533789889522",
-                "parentFolderId": "6"
+                "fingerprint": "1532948479559",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "37",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "25",
                 "name": "GA - EE - Promotion Click Data",
                 "type": "jsm",
                 "parameter": [
@@ -2015,13 +2039,13 @@
                         "value": "function() {\n  return {\t\n\t'ecommerce': {\n    'promoClick': {\n      'promotions': [\n     {\n       'name': '{{Click Alt}}',\n       'id': '{{Click Promotion ID}}',\n       'position': '{{Click Promotion Position}}'\n     }]\n    }\n   }\n}\n}"
                     }
                 ],
-                "fingerprint": "1533789889523",
-                "parentFolderId": "6"
+                "fingerprint": "1532951205658",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "38",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "26",
                 "name": "GA - EE - Promotion View Data",
                 "type": "jsm",
                 "parameter": [
@@ -2031,13 +2055,13 @@
                         "value": "function() {\n  return {\t'ecommerce': {\n    'promoView': {\n      'promotions': [\n     {\n       'name': '{{Click Alt}}',\n       'id': '{{Click Promotion ID}}',\n       'position': '{{Click Promotion Position}}'\n     }]\n    }\n   }\n}\n}"
                     }
                 ],
-                "fingerprint": "1533789889524",
-                "parentFolderId": "6"
+                "fingerprint": "1532951186321",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "39",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "38",
                 "name": "GA - EE - Remove from Cart Data",
                 "type": "jsm",
                 "parameter": [
@@ -2047,13 +2071,13 @@
                         "value": "function() {\n  return {\n  'ecommerce': {\n  \t'remove': {\n      'products': [{\n        'name': {{Add to Cart Product Name}},\n        'id': {{Add to Cart Product ID}},\n        'price': {{Add to Cart Product Unit Price}},\n        'quantity': {{Add to Cart Product Quantity}}\n\t\t}]\n\t\t}\n\t}\n}\n}"
                     }
                 ],
-                "fingerprint": "1533789889526",
-                "parentFolderId": "6"
+                "fingerprint": "1532948498606",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "46",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "45",
                 "name": "GA - EE - Transaction Data",
                 "type": "jsm",
                 "parameter": [
@@ -2063,13 +2087,13 @@
                         "value": "function () {\n  return {\n    'ecommerce': {\n      'purchase': {\n        'actionField': {\n          \t'id': {{Transaction ID}},\n        \t'affiliation': 'Neto Test',\n        \t'revenue': {{Transaction Total}},\n      \t\t'tax': {{Transaction Tax}},\n    \t\t'shipping': {{Transaction Shipping}},\n    \t\t'coupon': {{Transaction Coupon}}\n\t\t\t},\n          'products': {{Transaction Products}}\n\t\t\t}\n\t\t}\n\t}\n}"
                     }
                 ],
-                "fingerprint": "1533789889532",
-                "parentFolderId": "6"
+                "fingerprint": "1532948527598",
+                "parentFolderId": "26"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "47",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "3",
                 "name": "Logged in",
                 "type": "v",
                 "parameter": [
@@ -2094,13 +2118,13 @@
                         "value": "loggedIn"
                     }
                 ],
-                "fingerprint": "1533789889533",
-                "parentFolderId": "9"
+                "fingerprint": "1532948733040",
+                "parentFolderId": "16"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "23",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "50",
                 "name": "Lookup Table - Carousel Container Class",
                 "type": "smm",
                 "parameter": [
@@ -2186,13 +2210,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889508",
-                "parentFolderId": "7"
+                "fingerprint": "1533787751012",
+                "parentFolderId": "28"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "24",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "51",
                 "name": "Lookup Table - Carousel Slide Class",
                 "type": "smm",
                 "parameter": [
@@ -2278,13 +2302,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1533789889510",
-                "parentFolderId": "7"
+                "fingerprint": "1533787765773",
+                "parentFolderId": "28"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "32",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "53",
                 "name": "Lookup Table - Checkout Steps",
                 "type": "smm",
                 "parameter": [
@@ -2350,13 +2374,13 @@
                         ]
                     }
                 ],
-                "fingerprint": "1534139440448",
-                "parentFolderId": "7"
+                "fingerprint": "1534827161604",
+                "parentFolderId": "28"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "21",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "47",
                 "name": "Promotion URL",
                 "type": "c",
                 "parameter": [
@@ -2366,13 +2390,13 @@
                         "value": "marketing"
                     }
                 ],
-                "fingerprint": "1533789889506",
-                "parentFolderId": "7"
+                "fingerprint": "1532948669825",
+                "parentFolderId": "28"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "48",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "32",
                 "name": "Remove from Cart Product Category",
                 "type": "v",
                 "parameter": [
@@ -2392,13 +2416,13 @@
                         "value": "Remove Product Category"
                     }
                 ],
-                "fingerprint": "1533789889534",
-                "parentFolderId": "8"
+                "fingerprint": "1532610161883",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "49",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "34",
                 "name": "Remove from Cart Product ID",
                 "type": "v",
                 "parameter": [
@@ -2418,13 +2442,13 @@
                         "value": "Remove Product id"
                     }
                 ],
-                "fingerprint": "1533789889535",
-                "parentFolderId": "8"
+                "fingerprint": "1532610212841",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "50",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "33",
                 "name": "Remove from Cart Product Name",
                 "type": "v",
                 "parameter": [
@@ -2444,13 +2468,13 @@
                         "value": "Remove Product Name"
                     }
                 ],
-                "fingerprint": "1533789889536",
-                "parentFolderId": "8"
+                "fingerprint": "1532610189630",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "51",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "36",
                 "name": "Remove from Cart Product Quantity",
                 "type": "v",
                 "parameter": [
@@ -2470,13 +2494,13 @@
                         "value": "Remove Product Quantity"
                     }
                 ],
-                "fingerprint": "1533789889537",
-                "parentFolderId": "8"
+                "fingerprint": "1532610266237",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "52",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "35",
                 "name": "Remove from Cart Product Unit Price",
                 "type": "v",
                 "parameter": [
@@ -2496,13 +2520,13 @@
                         "value": "Remove Product Unit Price"
                     }
                 ],
-                "fingerprint": "1533789889537",
-                "parentFolderId": "8"
+                "fingerprint": "1532610245771",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "3",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "48",
                 "name": "Thumbnail Container Class",
                 "type": "c",
                 "parameter": [
@@ -2512,13 +2536,13 @@
                         "value": "thumbnail"
                     }
                 ],
-                "fingerprint": "1533789889486",
-                "parentFolderId": "7"
+                "fingerprint": "1532949478801",
+                "parentFolderId": "28"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "44",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "46",
                 "name": "Transaction Coupon",
                 "type": "v",
                 "parameter": [
@@ -2538,13 +2562,13 @@
                         "value": "Order Coupon"
                     }
                 ],
-                "fingerprint": "1533789889530",
-                "parentFolderId": "8"
+                "fingerprint": "1532948575106",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "41",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "44",
                 "name": "Transaction ID",
                 "type": "v",
                 "parameter": [
@@ -2564,13 +2588,13 @@
                         "value": "Order ID"
                     }
                 ],
-                "fingerprint": "1533789889527",
-                "parentFolderId": "8"
+                "fingerprint": "1532948599834",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "43",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "40",
                 "name": "Transaction Products",
                 "type": "v",
                 "parameter": [
@@ -2590,13 +2614,13 @@
                         "value": "Order Products"
                     }
                 ],
-                "fingerprint": "1533789889529",
-                "parentFolderId": "8"
+                "fingerprint": "1532948586446",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "45",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "42",
                 "name": "Transaction Shipping",
                 "type": "v",
                 "parameter": [
@@ -2616,13 +2640,13 @@
                         "value": "Order Shipping"
                     }
                 ],
-                "fingerprint": "1533789889531",
-                "parentFolderId": "8"
+                "fingerprint": "1532948617645",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "42",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "41",
                 "name": "Transaction Tax",
                 "type": "v",
                 "parameter": [
@@ -2642,13 +2666,13 @@
                         "value": "Order Tax"
                     }
                 ],
-                "fingerprint": "1533789889528",
-                "parentFolderId": "8"
+                "fingerprint": "1532948630119",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "40",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "43",
                 "name": "Transaction Total",
                 "type": "v",
                 "parameter": [
@@ -2668,13 +2692,13 @@
                         "value": "Order Total"
                     }
                 ],
-                "fingerprint": "1533789889527",
-                "parentFolderId": "8"
+                "fingerprint": "1532948640551",
+                "parentFolderId": "14"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "variableId": "53",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "variableId": "4",
                 "name": "User Group",
                 "type": "v",
                 "parameter": [
@@ -2694,122 +2718,104 @@
                         "value": "userGroup"
                     }
                 ],
-                "fingerprint": "1533789889538",
-                "parentFolderId": "9"
+                "fingerprint": "1532948726634",
+                "parentFolderId": "16"
             }
         ],
         "folder": [
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "folderId": "5",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "folderId": "27",
                 "name": "GA",
-                "fingerprint": "1533789889478"
+                "fingerprint": "1532948031091"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "folderId": "6",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "folderId": "26",
                 "name": "GA - EE",
-                "fingerprint": "1533789889479"
+                "fingerprint": "1532948007867"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "folderId": "7",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "folderId": "28",
                 "name": "Neto - Configuration",
-                "fingerprint": "1533789889479"
+                "fingerprint": "1532948665167"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "folderId": "8",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "folderId": "14",
                 "name": "Tracking",
-                "fingerprint": "1533789889479"
+                "fingerprint": "1532948787308"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "folderId": "9",
+                "accountId": "3303709682",
+                "containerId": "9189019",
+                "folderId": "16",
                 "name": "Utilities",
-                "fingerprint": "1533789889480"
+                "fingerprint": "1532582118846"
             }
         ],
         "builtInVariable": [
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "PAGE_URL",
                 "name": "Page URL"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "PAGE_HOSTNAME",
                 "name": "Page Hostname"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "PAGE_PATH",
                 "name": "Page Path"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "REFERRER",
                 "name": "Referrer"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "EVENT",
                 "name": "Event"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "CLICK_ELEMENT",
                 "name": "Click Element"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "CLICK_CLASSES",
                 "name": "Click Classes"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "CLICK_ID",
                 "name": "Click ID"
             },
             {
-                "accountId": "3811793778",
-                "containerId": "9636875",
+                "accountId": "3303709682",
+                "containerId": "9189019",
                 "type": "CLICK_URL",
                 "name": "Click URL"
-            },
-            {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "type": "SCROLL_DEPTH_THRESHOLD",
-                "name": "Scroll Depth Threshold"
-            },
-            {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "type": "SCROLL_DEPTH_UNITS",
-                "name": "Scroll Depth Units"
-            },
-            {
-                "accountId": "3811793778",
-                "containerId": "9636875",
-                "type": "SCROLL_DEPTH_DIRECTION",
-                "name": "Scroll Direction"
             }
         ],
-        "fingerprint": "1534205863544",
-        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3811793778/containers/9636875/versions/9?apiLink=version"
+        "fingerprint": "0",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/3303709682/containers/9189019/versions/0?apiLink=version"
     }
 }
